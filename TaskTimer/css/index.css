@@ -1,0 +1,176 @@
+@media (min-width: 1200px) { 
+
+/* index */
+
+.container{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#nav-lg {
+	height: 75px;
+	background-color: lightgray;
+}
+#logoHolder {
+	height: 100%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgreen;
+}
+#eu-buttonHolder {
+	height: 60px;
+	background-color: lightgray;
+	margin-top: 17.5%;
+}
+#nu-buttonHolder {
+	height: 60px;
+	background-color: lightgray;
+	margin-top: 5%;
+}
+
+#eu-button {
+	height: 100%;
+	width: 20%;
+	border-radius: 5px;
+	background-color: orange;
+}
+#nu-button {
+	height: 100%;
+	width: 20%;
+	border-radius: 5px;
+	background-color: orange;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){ 
+
+/* index */
+
+#nav-lg {
+	height: 75px;
+	background-color: lightgray;
+}
+#logoHolder {
+	height: 100%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgreen;
+}
+#eu-buttonHolder {
+	height: 60px;
+	background-color: lightgray;
+	margin-top: 27%;
+}
+#nu-buttonHolder {
+	height: 60px;
+	background-color: lightgray;
+	margin-top: 5%;
+}
+
+#eu-button {
+	height: 100%;
+	width: 20%;
+	border-radius: 5px;
+	background-color: orange;
+}
+#nu-button {
+	height: 100%;
+	width: 20%;
+	border-radius: 5px;
+	background-color: orange;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+/* index */
+
+#nav-lg {
+	height: 75px;
+	background-color: lightgray;
+}
+#logoHolder {
+	height: 100%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgreen;
+}
+#eu-buttonHolder {
+	height: 60px;
+	background-color: lightgray;
+	margin-top: 59%;
+}
+#nu-buttonHolder {
+	height: 60px;
+	background-color: lightgray;
+	margin-top: 5%;
+}
+
+#eu-button {
+	height: 100%;
+	width: 25%;
+	border-radius: 5px;
+	background-color: orange;
+}
+#nu-button {
+	height: 100%;
+	width: 25%;
+	border-radius: 5px;
+	background-color: orange;
+}
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+.container {
+	padding: 0;
+}
+
+/* index */
+
+#nav-lg {
+	height: 75px;
+	background-color: lightgray;
+}
+#logoHolder {
+	height: 100%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgreen;
+}
+#eu-buttonHolder {
+	height: 40px;
+	background-color: lightgray;
+	margin-top: 59%;
+}
+#nu-buttonHolder {
+	height: 40px;
+	background-color: lightgray;
+	margin-top: 5%;
+}
+
+#eu-button {
+	height: 100%;
+	width: 35%;
+	border-radius: 5px;
+	background-color: orange;
+}
+#nu-button {
+	height: 100%;
+	width: 35%;
+	border-radius: 5px;
+	background-color: orange;
+}
+
+
+}
