@@ -1,0 +1,414 @@
+@media (min-width: 1200px) { 
+
+/* Main */
+
+#nav-sm {
+	height: 45px;
+	background-color: lightgray;
+}
+
+#logoutMain {
+	height: 100%;
+	width: 20%;
+	margin-left: auto;
+	background-color: lightgreen;
+	color: blue;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#topHolderMain {
+	height: 175px;
+	background-color: lightblue;
+	padding: 0;
+}
+
+#bottomHolderMain {
+	height: 370px;
+	background-color: tomato;
+	padding: 0;
+}
+
+#topSideHolder-main {
+	height: 100%;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+#statsBtnMain {
+	height: 145px;
+	width: 145px;
+	border-radius: 50%;
+	background-color: black;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+}
+
+#timerBtnMain {
+	height: 145px;
+	width: 145px;
+	border-radius: 50%;
+	background-color: black;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+}
+
+#selectionTitle {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: tan;
+}
+
+#selectionHolderMain {
+	height: 75%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
+
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){ 
+
+
+/* Main */
+
+#nav-sm {
+	height: 45px;
+	background-color: lightgray;
+}
+
+#logoutMain {
+	height: 100%;
+	width: 20%;
+	margin-left: auto;
+	background-color: lightgreen;
+	color: blue;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#topHolderMain {
+	height: 250px;
+	background-color: lightblue;
+	padding: 0;
+}
+
+#bottomHolderMain {
+	height: 460px;
+	background-color: tomato;
+	padding: 0;
+}
+
+#topSideHolder-main {
+	height: 100%;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+#statsBtnMain {
+	height: 175px;
+	width: 175px;
+	border-radius: 50%;
+	background-color: black;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+}
+
+#timerBtnMain {
+	height: 175px;
+	width: 175px;
+	border-radius: 50%;
+	background-color: black;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+}
+
+#selectionTitle {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: tan;
+}
+
+#selectionHolderMain {
+	height: 75%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+/* Main */
+
+#nav-sm {
+	height: 45px;
+	background-color: lightgray;
+}
+
+#logoutMain {
+	height: 100%;
+	width: 20%;
+	margin-left: auto;
+	background-color: lightgreen;
+	color: blue;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#topHolderMain {
+	height: 250px;
+	background-color: lightblue;
+	padding: 0;
+}
+
+#bottomHolderMain {
+	height: 700px;
+	background-color: tomato;
+	padding: 0;
+}
+
+#topSideHolder-main {
+	height: 100%;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+#statsBtnMain {
+	height: 175px;
+	width: 175px;
+	border-radius: 50%;
+	background-color: black;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+}
+
+#timerBtnMain {
+	height: 175px;
+	width: 175px;
+	border-radius: 50%;
+	background-color: black;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+}
+
+#selectionTitle {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: tan;
+}
+
+#selectionHolderMain {
+	height: 75%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+.container {
+	padding: 0;
+}
+
+
+
+/* Main */
+
+#nav-sm {
+	height: 35px;
+	background-color: lightgray;
+}
+
+#logoutMain {
+	height: 100%;
+	width: 20%;
+	margin-left: auto;
+	background-color: lightgreen;
+	color: blue;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#topHolderMain {
+	height: 175px;
+	background-color: lightblue;
+	padding: 0;
+}
+
+#bottomHolderMain {
+	height: 430px;
+	background-color: tomato;
+	padding: 0;
+}
+
+#topSideHolder-main {
+	height: 100%;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+#statsBtnMain {
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+	background-color: black;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+}
+
+#timerBtnMain {
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+	background-color: black;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+}
+
+#selectionTitle {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: tan;
+}
+
+#selectionHolderMain {
+	height: 75%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
+
+
+
+
+
+
+}
