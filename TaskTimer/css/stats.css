@@ -1,0 +1,881 @@
+@media (min-width: 1400px){ 
+html {
+ background: url("../images/gplaypattern.png") repeat fixed center;
+}
+body {
+	padding: 0;
+	background-color: rgba(1, 48, 128, 0.42);
+}
+
+.container{
+	height: 900px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#nav-sm {
+	height: 45px;
+	background-color: lightgray;
+}
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 0.35%;
+    border-radius: 5px;
+	width: 12%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	color: white;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 68%;
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#topHolderStats {
+	height: 44%;
+	background: url("../images/gplaypattern.png") repeat fixed center;
+	padding: 0;
+}
+
+#bottomHolderStats {
+	height: 51%;
+	background: url("../images/graphy.png") repeat fixed center;
+	padding: 0;
+}
+
+#avgAccuracy {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+}
+
+#statsHolderMain {
+	height: 100%;
+	width: 85%;
+	background-color: white;
+	float: left;
+}
+
+#selectionHolderStats {
+	height: 90%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+    background-color: #3088FF;
+	color: white; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
+
+
+#leftBtnHolderMain {
+	height: 100%;
+	width: 7.5%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/leftArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#rightBtnHolderMain {
+	height: 100%;
+	width: 7.5%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/rightArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#leftBtnHolderMain:hover, #rightBtnHolderMain:hover {
+	background-color: orange;
+}
+
+#graphHolder {
+	height: 85%;
+	width: 100%;
+}
+
+#chartContainer {
+	height: 336px !important;
+	width: 430px !important;
+	margin-left: 21%;
+}
+
+#dateRangeHolder {
+	height: 15%;
+	width: 100%;
+	background-color: #3088FF;
+}
+
+#changeRangeLftArw, #changeRangeRgtArw {
+	height: 100%;
+	width: 15%;
+	float: left;
+}
+
+#changeRangeLftArw:hover, #changeRangeRgtArw:hover {
+	background-color: orange;
+}
+
+#changeRangeLftArw{
+	background: url("../images/leftArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 35%;
+} 
+#changeRangeRgtArw {
+	background: url("../images/rightArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 35%;
+}
+#changeRangeTitle {
+	height: 100%;
+	width: 70%;
+	background-color: #DFDFDF;
+	float: left;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.canvasjs-chart-credit {
+	display: none;
+}
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){ 
+
+html {
+ background: url("../images/gplaypattern.png") repeat fixed center;
+}
+body {
+	padding: 0;
+	background-color: rgba(1, 48, 128, 0.42);
+}
+
+.container{
+	height: 800px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#nav-sm {
+	height: 45px;
+	background-color: lightgray;
+}
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 0.35%;
+    border-radius: 5px;
+	width: 12%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	color: white;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 68%;
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#topHolderStats {
+	height: 44%;
+	background: url("../images/gplaypattern.png") repeat fixed center;
+	padding: 0;
+}
+
+#bottomHolderStats {
+	height: 50%;
+	background: url("../images/graphy.png") repeat fixed center;
+	padding: 0;
+}
+
+#avgAccuracy {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+}
+
+#statsHolderMain {
+	height: 100%;
+	width: 85%;
+	background-color: white;
+	float: left;
+}
+
+#selectionHolderStats {
+	height: 90%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+    background-color: #3088FF;
+	color: white; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
+
+
+#leftBtnHolderMain {
+	height: 100%;
+	width: 7.5%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/leftArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#rightBtnHolderMain {
+	height: 100%;
+	width: 7.5%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/rightArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#leftBtnHolderMain:hover, #rightBtnHolderMain:hover {
+	background-color: orange;
+}
+
+#graphHolder {
+	height: 85%;
+	width: 100%;
+}
+
+#chartContainer {
+	height: 287px !important;
+	width: 381px !important;
+	margin-left: 28%;
+}
+
+#dateRangeHolder {
+	height: 15%;
+	width: 100%;
+	background-color: #3088FF;
+}
+
+#changeRangeLftArw, #changeRangeRgtArw {
+	height: 100%;
+	width: 15%;
+	float: left;
+}
+
+#changeRangeLftArw:hover, #changeRangeRgtArw:hover {
+	background-color: orange;
+}
+
+#changeRangeLftArw{
+	background: url("../images/leftArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 35%;
+} 
+#changeRangeRgtArw {
+	background: url("../images/rightArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 35%;
+}
+#changeRangeTitle {
+	height: 100%;
+	width: 70%;
+	background-color: #DFDFDF;
+	float: left;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.canvasjs-chart-credit {
+	display: none;
+}
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){ 
+
+.container {
+	height: 768px;
+	width: 100%;
+	padding: 0;
+}
+
+#nav-sm {
+	height: 45px;
+	background-color: lightgray;
+}
+
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 0.35%;
+    border-radius: 5px;
+	width: 12%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	color: white;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 68%;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	text-decoration: none;
+}
+
+#topHolderStats {
+	height: 44%;
+	background: url("../images/gplaypattern.png") repeat fixed center;
+	padding: 0;
+}
+
+#bottomHolderStats {
+	height: 62%;
+	background: url("../images/graphy.png") repeat fixed center;
+	padding: 0;
+}
+
+#avgAccuracy {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+}
+
+#statsHolderMain {
+	height: 100%;
+	width: 85%;
+	background-color: white;
+	float: left;
+}
+
+#selectionHolderStats {
+	height: 90%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+    background-color: #3088FF;
+	color: white; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
+
+
+#leftBtnHolderMain {
+	height: 100%;
+	width: 7.5%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/leftArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#rightBtnHolderMain {
+	height: 100%;
+	width: 7.5%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/rightArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#leftBtnHolderMain:hover, #rightBtnHolderMain:hover {
+	background-color: orange;
+}
+
+#graphHolder {
+	height: 85%;
+	width: 100%;
+}
+
+#chartContainer {
+	height: 287px !important;
+	width: 381px !important;
+	margin-left: 28%;
+}
+
+#dateRangeHolder {
+	height: 15%;
+	width: 100%;
+	background-color: #3088FF;
+}
+
+#changeRangeLftArw, #changeRangeRgtArw {
+	height: 100%;
+	width: 15%;
+	float: left;
+}
+
+#changeRangeLftArw:hover, #changeRangeRgtArw:hover {
+	background-color: orange;
+}
+
+#changeRangeLftArw{
+	background: url("../images/leftArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 35%;
+} 
+#changeRangeRgtArw {
+	background: url("../images/rightArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 35%;
+}
+#changeRangeTitle {
+	height: 100%;
+	width: 70%;
+	background-color: #DFDFDF;
+	float: left;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.canvasjs-chart-credit {
+	display: none;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+.container {
+	height: 1024px;
+	width: 100%;
+	padding: 0;
+}
+
+#nav-sm {
+	height: 45px;
+	background-color: lightgray;
+}
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 0.75%;
+    border-radius: 5px;
+	width: 20%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	color: white;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 60%;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	text-decoration: none;
+}
+
+#topHolderStats {
+	height: 33%;
+	background: url("../images/gplaypattern.png") repeat fixed center;
+	padding: 0;
+}
+
+#bottomHolderStats {
+	height: 62%;
+	background: url("../images/graphy.png") repeat fixed center;
+	padding: 0;
+}
+
+#avgAccuracy {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+}
+
+#statsHolderMain {
+	height: 100%;
+	width: 80%;
+	background-color: white;
+	float: left;
+}
+
+#selectionHolderStats {
+	height: 90%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+    background-color: #3088FF;
+	color: white; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
+
+
+#leftBtnHolderMain {
+	height: 100%;
+	width: 10%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/leftArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#rightBtnHolderMain {
+	height: 100%;
+	width: 10%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/rightArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#leftBtnHolderMain:hover, #rightBtnHolderMain:hover {
+	background-color: orange;
+}
+
+#graphHolder {
+	height: 85%;
+	width: 100%;
+}
+
+#chartContainer {
+	height: 287px !important;
+	width: 381px !important;
+	margin-left: 18.5%;
+}
+
+#dateRangeHolder {
+	height: 15%;
+	width: 100%;
+	background-color: #3088FF;
+}
+
+#changeRangeLftArw, #changeRangeRgtArw {
+	height: 100%;
+	width: 15%;
+	float: left;
+}
+
+#changeRangeLftArw:hover, #changeRangeRgtArw:hover {
+	background-color: orange;
+}
+
+#changeRangeLftArw{
+	background: url("../images/leftArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 50%;
+} 
+#changeRangeRgtArw {
+	background: url("../images/rightArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 50%;
+}
+#changeRangeTitle {
+	height: 100%;
+	width: 70%;
+	background-color: #DFDFDF;
+	float: left;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.canvasjs-chart-credit {
+	display: none;
+}
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+.container {
+	height: 700px;
+	padding: 0;
+}
+
+#nav-sm {
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 1%;
+    border-radius: 5px;
+    color: white;
+	width: 20%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 60%;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	text-decoration: none;
+}
+
+#topHolderStats {
+	height: 33%;
+	background: url("../images/gplaypattern.png") repeat fixed center;
+	padding: 0;
+}
+
+#bottomHolderStats {
+	height: 62%;
+	background: url("../images/graphy.png") repeat fixed center;
+	padding: 0;
+}
+
+#avgAccuracy {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+}
+
+#statsHolderMain {
+	height: 100%;
+	width: 75%;
+	background-color: white;
+	float: left;
+}
+
+#selectionHolderStats {
+	height: 90%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+    background-color: #3088FF;
+	color: white; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
+
+#leftBtnHolderMain {
+	height: 100%;
+	width: 12.5%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/leftArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#rightBtnHolderMain {
+	height: 100%;
+	width: 12.5%;
+	float: left;
+	background: rgba(0,0,0,0.7) url("../images/rightArwLG.png") no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+}
+
+#leftBtnHolderMain:hover, #rightBtnHolderMain:hover {
+	background-color: orange;
+}
+#graphHolder {
+	height: 85%;
+	width: 100%;
+}
+
+#chartContainer {
+	height: 193px !important;
+	width: 281px !important;
+}
+
+#dateRangeHolder {
+	height: 15%;
+	width: 100%;
+	background-color: #3088FF;
+}
+
+#changeRangeLftArw, #changeRangeRgtArw {
+	height: 100%;
+	width: 15%;
+	float: left;
+}
+
+#changeRangeLftArw:hover, #changeRangeRgtArw:hover {
+	background-color: orange;
+}
+
+#changeRangeLftArw{
+	background: url("../images/leftArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 80%;
+} 
+#changeRangeRgtArw {
+	background: url("../images/rightArw.png") no-repeat;
+	background-position: 50% 33%;
+	background-size: 80%;
+}
+#changeRangeTitle {
+	height: 100%;
+	width: 70%;
+	background-color: #DFDFDF;
+	float: left;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.canvasjs-chart-credit {
+	display: none;
+}
+
+
+
+
+
+
+}
