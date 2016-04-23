@@ -2,7 +2,6 @@
 
 @media (min-width: 1400px){ 
 
-/* index */
 html {
  background: url("../images/gplaypattern.png") repeat fixed center;
 }
@@ -61,7 +60,7 @@ body {
 
 @media (min-width: 1200px) and (max-width: 1399px){ 
 
-/* index */
+
 html {
  background: url("../images/gplaypattern.png") repeat fixed center;
 }
@@ -120,7 +119,7 @@ body {
 
 @media (min-width: 1024px) and (max-width: 1199px){ 
 
-/* index */
+
 body {
 	padding: 0;
     background: url("../images/gplaypattern.png") repeat fixed center;
@@ -176,8 +175,6 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-
-/* index */
 
 body {
 	padding: 0;
@@ -244,8 +241,6 @@ body {
 	padding: 0;
 	background-color: rgba(1, 48, 128, 0.42);
 }
-
-/* index */
 
 #nav-lg {
 	height: 75px;
