@@ -1,0 +1,280 @@
+@media (min-width: 1400px){ 
+	html {
+ background: url("../images/gplaypattern.png") repeat fixed center;
+}
+body {
+	padding: 0;
+	background-color: rgba(1, 48, 128, 0.42);
+}
+.container{
+	height: 900px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#nav-lg {
+	height: 75px;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+}
+
+#logoHolder {
+	height: 100%;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("../images/signUp.png") no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+}
+
+#signupForm {
+	margin-top: 39%;
+}
+
+.form-group {
+	padding-left: 275px;
+    padding-right: 275px;
+}
+
+#submitBtn {
+	background-color: #3088FF;
+	color: white;
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+#submitBtn:hover {
+	background-color: orange;
+	color: black;
+}
+
+}
+@media (min-width: 1200px) and (max-width: 1399px){ 
+
+html {
+ background: url("../images/gplaypattern.png") repeat fixed center;
+}
+body {
+	padding: 0;
+	background-color: rgba(1, 48, 128, 0.42);
+}
+.container{
+	height: 800px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#nav-lg {
+	height: 75px;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+}
+
+#logoHolder {
+	height: 100%;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("../images/signUp.png") no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+}
+
+#signupForm {
+	margin-top: 33%;
+}
+
+.form-group {
+	padding-left: 275px;
+    padding-right: 275px;
+}
+
+#submitBtn {
+	background-color: #3088FF;
+	color: white;
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+#submitBtn:hover {
+	background-color: orange;
+	color: black;
+}
+
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){ 
+
+body {
+	padding: 0;
+    background: url("../images/gplaypattern.png") repeat fixed center;
+}
+.container {
+	height: 768px;
+	width: 100%;
+	padding: 0;
+	background-color: rgba(1, 48, 128, 0.42);
+}
+
+#nav-lg {
+	height: 75px;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+}
+
+
+#logoHolder {
+	height: 100%;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("../images/signUp.png") no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+}
+
+#signupForm {
+	margin-top: 31%;
+}
+
+.form-group {
+	padding-left: 300px;
+    padding-right: 300px;
+}
+
+#submitBtn {
+	background-color: #3088FF;
+	color: white;
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+#submitBtn:hover {
+	background-color: orange;
+	color: black;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+body {
+	padding: 0;
+    background: url("../images/gplaypattern.png") repeat fixed center;
+}
+.container {
+	height: 1024px;
+	width: 100%;
+	padding: 0;
+	background-color: rgba(1, 48, 128, 0.42);
+}
+
+#nav-lg {
+	height: 75px;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+}
+
+
+#logoHolder {
+	height: 100%;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("../images/signUp.png") no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+}
+
+#signupForm {
+	margin-top: 55%;
+}
+
+.form-group {
+	padding-left: 150px;
+    padding-right: 150px;
+}
+
+#submitBtn {
+	background-color: #3088FF;
+	color: white;
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+#submitBtn:hover {
+	background-color: orange;
+	color: black;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+body {
+    background: url("../images/gplaypattern.png") repeat fixed center;
+}
+.container {
+	height: 700px;
+	padding: 0;
+	background-color: rgba(1, 48, 128, 0.42);
+}
+
+#nav-lg {
+	height: 75px;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.75);
+}
+
+#logoHolder {
+	height: 100%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("../images/signUp.png") no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+}
+
+#signupForm {
+	margin-top: 40%;
+}
+
+.form-group {
+	padding-left: 50px;
+    padding-right: 50px;
+}
+
+#submitBtn {
+	background-color: #3088FF;
+	color: white;
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+#submitBtn:hover {
+	background-color: orange;
+	color: black;
+}
+
+}
