@@ -1,0 +1,720 @@
+@media (min-width: 1400px){ 
+	body {
+    background: url("../images/gplaypattern.png") repeat fixed center;
+}
+
+.container {
+	height: 900px;
+	width: 100%;
+	padding: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+#nav-sm {
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 0.35%;
+    border-radius: 5px;
+	width: 12%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 68%;
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#selectedItm {
+	height: 7%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column; 
+	background-color: #3088FF;
+	color: white;
+	margin-top: 3%;
+	padding-left: 200px;
+    padding-right: 200px;
+}
+
+#estTimeHolder {
+	height: 55px;
+	background-color: #DFDFDF;
+	margin-top: 4%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#estTimeLbl {
+	float: left;
+	margin-top: 1.55%;
+}
+
+#estTimeInput {
+	width: 50%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 1.1%;
+}
+
+#acyTimeHolder {
+	height: 55px;
+	background-color: #DFDFDF;
+	margin-top: -1%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#acyTimeLbl {
+	float: left;
+	margin-top: 1.55%;
+	margin-left: 5%;
+}
+
+#acySec {
+	float: left;
+	width: 100px;
+	height: 70%;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: .85%;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 3.5px;
+}
+
+#timerHolder {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin-left: 35%;
+	margin-top: 6%;
+	margin-bottom: 7%;
+	background-color: #00DB21;
+	-webkit-box-shadow: 0px 0px 217px 10px #00DB21;
+    -moz-box-shadow: 0px 0px 217px 10px #00DB21;
+    box-shadow: 0px 0px 125px 20px #00DB21;
+}
+
+#startBtn {
+	height: 100%;
+	width: 115%;
+	font-size: 3em;	
+	font-weight: 600;
+	text-align: center;
+	border-radius: 3.5px;
+	color: white;
+	margin-left: -7.5%;
+	background-color: rgba(255,0,0,0); 
+	border-color: rgba(255,0,0,0); 
+}
+
+}
+@media (min-width: 1200px) and (max-width: 1399px) { 
+
+
+body {
+    background: url("../images/gplaypattern.png") repeat fixed center;
+}
+
+.container {
+	height: 800px;
+	width: 100%;
+	padding: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+#nav-sm {
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 0.35%;
+    border-radius: 5px;
+	width: 12%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 68%;
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#selectedItm {
+	height: 7%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column; 
+	background-color: #3088FF;
+	color: white;
+	margin-top: 3%;
+	padding-left: 200px;
+    padding-right: 200px;
+}
+
+#estTimeHolder {
+	height: 55px;
+	background-color: #DFDFDF;
+	margin-top: 4%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#estTimeLbl {
+	float: left;
+	margin-top: 1.55%;
+}
+
+#estTimeInput {
+	width: 50%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 1.1%;
+}
+
+#acyTimeHolder {
+	height: 55px;
+	background-color: #DFDFDF;
+	margin-top: -1%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#acyTimeLbl {
+	float: left;
+	margin-top: 1.55%;
+	margin-left: 5%;
+}
+
+#acySec {
+	float: left;
+	width: 100px;
+	height: 70%;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: .85%;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 3.5px;
+}
+
+#timerHolder {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin-left: 35%;
+	margin-top: 6%;
+	margin-bottom: 7%;
+	background-color: #00DB21;
+	-webkit-box-shadow: 0px 0px 217px 10px #00DB21;
+    -moz-box-shadow: 0px 0px 217px 10px #00DB21;
+    box-shadow: 0px 0px 125px 20px #00DB21;
+}
+
+#startBtn {
+	height: 100%;
+	width: 115%;
+	font-size: 3em;	
+	font-weight: 600;
+	text-align: center;
+	border-radius: 3.5px;
+	color: white;
+	margin-left: -7.5%;
+	background-color: rgba(255,0,0,0); 
+	border-color: rgba(255,0,0,0); 
+}
+
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){ 
+
+body {
+    background: url("../images/gplaypattern.png") repeat fixed center;
+}
+
+.container {
+	height: 768px;
+	width: 100%;
+	padding: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+#nav-sm {
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 0.35%;
+    border-radius: 5px;
+	width: 12%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 68%;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	text-decoration: none;
+}
+
+#selectedItm {
+	height: 7%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column; 
+	background-color: #3088FF;
+	color: white;
+	margin-top: 2%;
+	padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+#estTimeHolder {
+	height: 55px;
+	background-color: #DFDFDF;
+	margin-top: 3%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#estTimeLbl {
+	float: left;
+	margin-top: 2%;
+}
+
+#estTimeInput {
+	width: 50%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 1.1%;
+}
+
+#acyTimeHolder {
+	height: 55px;
+	background-color: #DFDFDF;
+	margin-top: -1%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#acyTimeLbl {
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+#acySec {
+	float: left;
+	width: 100px;
+	height: 70%;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: .85%;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 3.5px;
+}
+
+#timerHolder {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin-left: 35%;
+	margin-top: 9%;
+	margin-bottom: 10%;
+	background-color: #00DB21;
+	-webkit-box-shadow: 0px 0px 217px 10px #00DB21;
+    -moz-box-shadow: 0px 0px 217px 10px #00DB21;
+    box-shadow: 0px 0px 125px 20px #00DB21;
+}
+
+#startBtn {
+	height: 100%;
+	width: 115%;
+	font-size: 3em;	
+	font-weight: 600;
+	text-align: center;
+	border-radius: 3.5px;
+	color: white;
+	margin-left: -7.5%;
+	background-color: rgba(255,0,0,0); 
+	border-color: rgba(255,0,0,0); 
+}
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+body {
+    background: url("../images/gplaypattern.png") repeat fixed center;
+}
+
+.container {
+	height: 1024px;
+	width: 100%;
+	padding: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+#nav-sm {
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 0.75%;
+    border-radius: 5px;
+	width: 20%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 60%;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	text-decoration: none;
+}
+
+#selectedItm {
+	height: 7%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column; 
+	background-color: #3088FF;
+	color: white;
+	margin-top: 6%;
+	padding-left: 200px;
+    padding-right: 200px;
+}
+
+#estTimeHolder {
+	height: 50px;
+	background-color: #DFDFDF;
+	margin-top: 10%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#estTimeLbl {
+	float: left;
+	margin-top: 2.5%;
+}
+
+#estTimeInput {
+	width: 50%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 1.25%;
+}
+
+#acyTimeHolder {
+	height: 50px;
+	background-color: #DFDFDF;
+	margin-top: 2%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#acyTimeLbl {
+	float: left;
+	margin-top: 2.5%;
+	margin-left: 6%;
+}
+
+#acySec {
+	float: left;
+	width: 100px;
+	height: 70%;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 1.25%;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 3.5px;
+}
+
+#timerHolder {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin-left: 30%;
+	margin-top: 17%;
+	margin-bottom: 15%;
+	background-color: #00DB21;
+	-webkit-box-shadow: 0px 0px 217px 10px #00DB21;
+    -moz-box-shadow: 0px 0px 217px 10px #00DB21;
+    box-shadow: 0px 0px 125px 20px #00DB21;
+}
+
+#startBtn {
+	height: 100%;
+	width: 115%;
+	font-size: 3em;	
+	font-weight: 600;
+	text-align: center;
+	border-radius: 3.5px;
+	color: white;
+	margin-left: -7.5%;
+	background-color: rgba(255,0,0,0); 
+	border-color: rgba(255,0,0,0); 
+}
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+body {
+    background: url("../images/gplaypattern.png") repeat fixed center;
+}
+
+.container {
+	height: 700px;
+	padding: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+
+#nav-sm {
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#goBack {
+	height: 80%;
+    background-color: #3088FF;
+    margin-top: 1%;
+    border-radius: 5px;
+    color: white;
+	width: 20%;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+}
+
+#logoutTimer {
+	height: 100%;
+	width: 20%;
+	margin-left: 60%;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	text-decoration: none;
+}
+
+#selectedItm {
+	height: 7%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column; 
+	background-color: #3088FF;
+	color: white;
+	margin-top: 6%;
+}
+
+#estTimeHolder {
+	height: 50px;
+	background-color: #DFDFDF;
+	margin-top: 4%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#estTimeLbl {
+	float: left;
+	margin-top: 4.75%;
+}
+
+#estTimeInput {
+	width: 50%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 2.4%;
+}
+
+#acyTimeHolder {
+	height: 50px;
+	background-color: #DFDFDF;
+	margin-top: 5%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#acyTimeLbl {
+	float: left;
+	margin-top: 4.75%;
+	margin-left: 12%;
+}
+
+#acySec {
+	float: left;
+	width: 100px;
+	height: 70%;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 2.25%;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 3.5px;
+}
+
+#timerHolder {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	background-color: #00DB21;
+	-webkit-box-shadow: 0px 0px 217px 10px #00DB21;
+    -moz-box-shadow: 0px 0px 217px 10px #00DB21;
+    box-shadow: 0px 0px 125px 20px #00DB21;
+}
+
+#startBtn {
+	height: 100%;
+	width: 115%;
+	font-size: 3em;	
+	font-weight: 600;
+	text-align: center;
+	border-radius: 3.5px;
+	color: white;
+	margin-left: -7.5%;
+	background-color: rgba(255,0,0,0); 
+	border-color: rgba(255,0,0,0); 
+}
+
+
+
+
+
+}
