@@ -1,19 +1,25 @@
-@media (min-width: 1200px) { 
+@media (min-width: 1400px){ 
 
-/* Main */
+.container{
+	height: 900px;
+    width: 100%;
+    padding: 0;
+}
 
 #nav-sm {
-	height: 45px;
-	background-color: lightgray;
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
 }
 
 #logoutMain {
 	height: 100%;
 	width: 20%;
 	margin-left: auto;
-	background-color: lightgreen;
-	color: blue;
-	font-size: 1em;
+	color: black;
+	font-size: 1.35em;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -21,14 +27,14 @@
 }
 
 #topHolderMain {
-	height: 175px;
-	background-color: lightblue;
+	height: 35%;
+	background-color: rgba(0,0,0,0.7);
 	padding: 0;
 }
 
 #bottomHolderMain {
-	height: 370px;
-	background-color: tomato;
+	height: 60%;
+	background: url("../images/graphy.png") repeat fixed center;
 	padding: 0;
 }
 
@@ -40,10 +46,9 @@
 }
 
 #statsBtnMain {
-	height: 145px;
-	width: 145px;
+	height: 175px;
+	width: 175px;
 	border-radius: 50%;
-	background-color: black;
 	margin:auto;
 	top: 0;
 	bottom: 0;
@@ -51,13 +56,22 @@
 	left: 0;
 	position: absolute;
 	float: left;
+	background-color: #68A0CA;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #timerBtnMain {
-	height: 145px;
-	width: 145px;
+	height: 175px;
+	width: 175px;
 	border-radius: 50%;
-	background-color: black;
 	margin:auto;
 	top: 0;
 	bottom: 0;
@@ -65,6 +79,23 @@
 	left: 0;
 	position: absolute;
 	float: left;
+	background-color: #68A0CA;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#statsBtnMain:hover, #timerBtnMain:hover {
+	background-color: #F28200;
+	-webkit-box-shadow: 0px 0px 217px 10px #F28200;
+    -moz-box-shadow: 0px 0px 217px 10px #F28200;
+    box-shadow: 0px 0px 125px 20px #F28200;
 }
 
 #selectionTitle {
@@ -74,11 +105,14 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	background-color: tan;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
 }
 
 #selectionHolderMain {
-	height: 75%;
+	height: 85%;
 	padding: 0;
 }
 
@@ -86,6 +120,8 @@
 	margin: 10px;
 	white-space:normal !important;
     word-wrap:break-word; 
+    background-color: #3088FF;
+	color: white; 
 }
 
 #selection-button-add {
@@ -95,6 +131,141 @@
 	width: 50px;
 }
 
+
+}
+@media (min-width: 1200px) and (max-width: 1399px){ 
+
+
+.container{
+	height: 800px;
+    width: 100%;
+    padding: 0;
+}
+
+#nav-sm {
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+#logoutMain {
+	height: 100%;
+	width: 20%;
+	margin-left: auto;
+	color: black;
+	font-size: 1.35em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#topHolderMain {
+	height: 35%;
+	background-color: rgba(0,0,0,0.7);
+	padding: 0;
+}
+
+#bottomHolderMain {
+	height: 60%;
+	background: url("../images/graphy.png") repeat fixed center;
+	padding: 0;
+}
+
+#topSideHolder-main {
+	height: 100%;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+#statsBtnMain {
+	height: 175px;
+	width: 175px;
+	border-radius: 50%;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+	background-color: #68A0CA;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#timerBtnMain {
+	height: 175px;
+	width: 175px;
+	border-radius: 50%;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	float: left;
+	background-color: #68A0CA;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#statsBtnMain:hover, #timerBtnMain:hover {
+	background-color: #F28200;
+	-webkit-box-shadow: 0px 0px 217px 10px #F28200;
+    -moz-box-shadow: 0px 0px 217px 10px #F28200;
+    box-shadow: 0px 0px 125px 20px #F28200;
+}
+
+#selectionTitle {
+	height: 10%;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+}
+
+#selectionHolderMain {
+	height: 85%;
+	padding: 0;
+}
+
+#selection-button {
+	margin: 10px;
+	white-space:normal !important;
+    word-wrap:break-word; 
+    background-color: #3088FF;
+	color: white; 
+}
+
+#selection-button-add {
+	margin: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	width: 50px;
+}
 
 
 }
@@ -102,20 +273,26 @@
 @media (min-width: 1024px) and (max-width: 1199px){ 
 
 
-/* Main */
+.container {
+	height: 768px;
+	width: 100%;
+	padding: 0;
+}
 
 #nav-sm {
-	height: 45px;
-	background-color: lightgray;
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
 }
 
 #logoutMain {
 	height: 100%;
 	width: 20%;
 	margin-left: auto;
-	background-color: lightgreen;
-	color: blue;
-	font-size: 1em;
+	color: black;
+	font-size: 1.35em;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -123,14 +300,14 @@
 }
 
 #topHolderMain {
-	height: 250px;
-	background-color: lightblue;
+	height: 35%;
+	background-color: rgba(0,0,0,0.7);
 	padding: 0;
 }
 
 #bottomHolderMain {
-	height: 460px;
-	background-color: tomato;
+	height: 60%;
+	background: url("../images/graphy.png") repeat fixed center;
 	padding: 0;
 }
 
@@ -145,7 +322,6 @@
 	height: 175px;
 	width: 175px;
 	border-radius: 50%;
-	background-color: black;
 	margin:auto;
 	top: 0;
 	bottom: 0;
@@ -153,6 +329,16 @@
 	left: 0;
 	position: absolute;
 	float: left;
+	background-color: #68A0CA;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #timerBtnMain {
@@ -167,6 +353,23 @@
 	left: 0;
 	position: absolute;
 	float: left;
+	background-color: #68A0CA;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#statsBtnMain:hover, #timerBtnMain:hover {
+	background-color: #F28200;
+	-webkit-box-shadow: 0px 0px 217px 10px #F28200;
+    -moz-box-shadow: 0px 0px 217px 10px #F28200;
+    box-shadow: 0px 0px 125px 20px #F28200;
 }
 
 #selectionTitle {
@@ -176,11 +379,14 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	background-color: tan;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
 }
 
 #selectionHolderMain {
-	height: 75%;
+	height: 85%;
 	padding: 0;
 }
 
@@ -188,6 +394,8 @@
 	margin: 10px;
 	white-space:normal !important;
     word-wrap:break-word; 
+    background-color: #3088FF;
+	color: white; 
 }
 
 #selection-button-add {
@@ -196,42 +404,49 @@
 	font-weight: 600;
 	width: 50px;
 }
-
 
 
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
-/* Main */
+
+.container {
+	height: 1024px;
+	width: 100%;
+	padding: 0;
+}
 
 #nav-sm {
-	height: 45px;
-	background-color: lightgray;
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
 }
 
 #logoutMain {
 	height: 100%;
 	width: 20%;
 	margin-left: auto;
-	background-color: lightgreen;
-	color: blue;
-	font-size: 1em;
+	color: black;
+	font-size: 1.5em;
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	text-decoration: none;
 }
 
 #topHolderMain {
-	height: 250px;
-	background-color: lightblue;
+	height: 25%;
+	background-color: rgba(0,0,0,0.7);
 	padding: 0;
 }
 
 #bottomHolderMain {
-	height: 700px;
-	background-color: tomato;
+	height: 70%;
+	background: url("../images/graphy.png") repeat fixed center;
 	padding: 0;
 }
 
@@ -246,7 +461,7 @@
 	height: 175px;
 	width: 175px;
 	border-radius: 50%;
-	background-color: black;
+	background-color: #68A0CA;
 	margin:auto;
 	top: 0;
 	bottom: 0;
@@ -254,13 +469,22 @@
 	left: 0;
 	position: absolute;
 	float: left;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #timerBtnMain {
 	height: 175px;
 	width: 175px;
 	border-radius: 50%;
-	background-color: black;
+	background-color: #68A0CA;
 	margin:auto;
 	top: 0;
 	bottom: 0;
@@ -268,6 +492,22 @@
 	left: 0;
 	position: absolute;
 	float: left;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#statsBtnMain:hover, #timerBtnMain:hover {
+	background-color: #F28200;
+	-webkit-box-shadow: 0px 0px 217px 10px #F28200;
+    -moz-box-shadow: 0px 0px 217px 10px #F28200;
+    box-shadow: 0px 0px 125px 20px #F28200;
 }
 
 #selectionTitle {
@@ -277,11 +517,14 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	background-color: tan;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
 }
 
 #selectionHolderMain {
-	height: 75%;
+	height: 85%;
 	padding: 0;
 }
 
@@ -289,6 +532,8 @@
 	margin: 10px;
 	white-space:normal !important;
     word-wrap:break-word; 
+    background-color: #3088FF;
+	color: white; 
 }
 
 #selection-button-add {
@@ -297,8 +542,6 @@
 	font-weight: 600;
 	width: 50px;
 }
-
-
 
 
 }
@@ -306,40 +549,43 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
 .container {
+	height: 700px;
 	padding: 0;
 }
-
 
 
 /* Main */
 
 #nav-sm {
-	height: 35px;
-	background-color: lightgray;
+	height: 5%;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
 }
 
 #logoutMain {
 	height: 100%;
 	width: 20%;
 	margin-left: auto;
-	background-color: lightgreen;
-	color: blue;
+	color: black;
 	font-size: 1em;
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	text-decoration: none;
 }
 
 #topHolderMain {
-	height: 175px;
-	background-color: lightblue;
+	height: 25%;
+	background-color: rgba(0,0,0,0.7);
 	padding: 0;
 }
 
 #bottomHolderMain {
-	height: 430px;
-	background-color: tomato;
+	height: 70%;
+	background: url("../images/graphy.png") repeat fixed center;
 	padding: 0;
 }
 
@@ -354,7 +600,7 @@
 	height: 125px;
 	width: 125px;
 	border-radius: 50%;
-	background-color: black;
+	background-color: #68A0CA;
 	margin:auto;
 	top: 0;
 	bottom: 0;
@@ -362,13 +608,22 @@
 	left: 0;
 	position: absolute;
 	float: left;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #timerBtnMain {
 	height: 125px;
 	width: 125px;
 	border-radius: 50%;
-	background-color: black;
+	background-color: #68A0CA;
 	margin:auto;
 	top: 0;
 	bottom: 0;
@@ -376,27 +631,49 @@
 	left: 0;
 	position: absolute;
 	float: left;
+	-webkit-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 217px 10px rgba(0,85,255,1);
+    box-shadow: 0px 0px 125px 20px rgb(86, 182, 255);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
+#statsBtnMain:hover, #timerBtnMain:hover {
+	background-color: #F28200;
+	-webkit-box-shadow: 0px 0px 217px 10px #F28200;
+    -moz-box-shadow: 0px 0px 217px 10px #F28200;
+    box-shadow: 0px 0px 125px 20px #F28200;
+}
+
+
 #selectionTitle {
-	height: 10%;
+	height: 8%;
 	font-size: 1.2em;
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	background-color: tan;
+	background-color: #DFDFDF;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.75);
 }
 
 #selectionHolderMain {
-	height: 75%;
+	height: 85%;
 	padding: 0;
 }
 
 #selection-button {
 	margin: 10px;
 	white-space:normal !important;
-    word-wrap:break-word; 
+    word-wrap:break-word;
+    background-color: #3088FF;
+	color: white; 
 }
 
 #selection-button-add {
@@ -405,10 +682,6 @@
 	font-weight: 600;
 	width: 50px;
 }
-
-
-
-
 
 
 }
