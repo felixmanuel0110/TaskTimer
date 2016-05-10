@@ -74,11 +74,24 @@
 }
 
 #estTimeInput {
-	width: 50%;
+	width: 12.5%;
 	float: left;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-top: 1.1%;
 }
+
+#timeInd {
+	float: left;
+	margin-top: 1.25%;
+    margin-left: 5px;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
 
 #acyTimeHolder {
 	height: 55px;
@@ -216,10 +229,22 @@ body {
 }
 
 #estTimeInput {
-	width: 50%;
+	width: 12.5%;
 	float: left;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-top: 1.1%;
+}
+
+#timeInd {
+	float: left;
+	margin-top: 1.25%;
+    margin-left: 5px;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 #acyTimeHolder {
@@ -361,10 +386,22 @@ body {
 }
 
 #estTimeInput {
-	width: 50%;
+	width: 12.5%;
 	float: left;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-top: 1.1%;
+}
+
+#timeInd {
+	float: left;
+	margin-top: 1.25%;
+    margin-left: 5px;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 #acyTimeHolder {
@@ -506,10 +543,22 @@ body {
 }
 
 #estTimeInput {
-	width: 50%;
+	width: 12.5%;
 	float: left;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-top: 1.25%;
+}
+
+#timeInd {
+	float: left;
+	margin-top: 1.5%;
+    margin-left: 5px;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 #acyTimeHolder {
@@ -650,10 +699,22 @@ body {
 }
 
 #estTimeInput {
-	width: 50%;
+	width: 12.5%;
 	float: left;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-top: 2.4%;
+}
+
+#timeInd {
+	float: left;
+	margin-top: 2.75%;
+    margin-left: 5px;
+	font-size: 1.5em;	
+	font-weight: 600;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 #acyTimeHolder {

@@ -12,6 +12,41 @@
 <body>
 
 <div class="container">
+
+
+ <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="usr">Description:</label>
+              <input type="text" class="form-control" id="usr">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="close">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
   <div class="col-sm-12" id="nav-sm">
     <a href="#" id="logoutMain">logout</a>
   </div>
@@ -27,8 +62,8 @@
     <div class="col-sm-12" id="selectionTitle">Select a category</div>
     <div class="col-sm-12" id="selectionHolderMain">
       
-      <button type="button" class="btn btn-default" id="selection-button">Default long text for saying something irrelvent but long.</button>
-      <button type="button" class="btn btn-success" id="selection-button-add">+</button>
+      <button type="button" class="btn" id="selection-button">Default long text for saying something irrelvent but long.</button>
+      <button type="button" class="btn btn-success" id="selection-button-add" data-toggle="modal" data-target="#myModal">+</button>
 
     </div>
     

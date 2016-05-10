@@ -16,10 +16,14 @@
     <div id="goBack">Go Back</div>
     <a href="#" id="logoutTimer">logout</a>
   </div>
-  <div class="col-sm-12" id="selectedItm">This some random text to show the correct fill space. aklfnvdka aldfkjlf sd ajfdsio</div>
+  <div class="col-sm-12" id="selectedItm"></div>
   <div class="col-sm-12" id="estTimeHolder">
       <label for="estTime" id="estTimeLbl">Estimated Time:</label>
-      <input type="time" class="form-control" id="estTimeInput">
+      <input type="number" value="00" name="quantity" class="form-control hours" id="estTimeInput" min="0" max="24" step="1" onchange="if(parseInt(this.value,10)<10)this.value='0'+this.value;">
+      <label id="timeInd">:</label>
+      <input type="number" value="00" name="quantity" class="form-control minutes" id="estTimeInput" min="0" max="60" step="1" onchange="if(parseInt(this.value,10)<10)this.value='0'+this.value;">
+      <label id="timeInd">:</label>
+      <input type="number" value="00" name="quantity" class="form-control seconds" id="estTimeInput" min="0" max="60" step="1" onchange="if(parseInt(this.value,10)<10)this.value='0'+this.value;">
   </div>
   <div class="col-sm-12" id="timerHolder">
     <button type="button" id="startBtn">START</button>
@@ -30,6 +34,7 @@
   </div>
 </div>
 
-
+<script src="js/timer.jquery.js"></script>
+<script src="js/timer.js"></script>
 </body>
 </html>
